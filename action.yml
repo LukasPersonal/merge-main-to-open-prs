@@ -1,0 +1,12 @@
+---
+name: 'Merge-Main-To-Open-Prs'
+author: 'AdmiralAwkbar'
+description: "A simple GitHub Action to help merge your main/master branch into all open Pr's"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-square'
+  color: 'white'
+# You can view https://github.com/github/super-linter#environment-variables
+# to see a comprehensive list of all environment variables that can be passed
